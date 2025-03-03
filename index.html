@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jigsaw Puzzle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jigsaw Puzzle</h1>
+    <input type="file" id="imageUpload" accept="image/*">
+    <select id="puzzleSize">
+        <option value="4">4x4</option>
+        <option value="12">12x1</option>
+        <option value="32">32x32</option>
+        <option value="64">64x64</option>
+        <option value="128">128x128</option>
+    </select>
+    <button id="startPuzzle">Start Puzzle</button>
+    <div id="puzzleContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>

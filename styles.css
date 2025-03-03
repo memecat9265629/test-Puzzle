@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#puzzleContainer {
+    display: grid;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+.puzzlePiece {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-size: cover;
+}
